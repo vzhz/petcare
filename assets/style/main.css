@@ -240,7 +240,7 @@ h6 {
 }
 
 .profile {
-    background-image: url(assets/images/profile.jpg);
+    background-image: url("../images/profile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
