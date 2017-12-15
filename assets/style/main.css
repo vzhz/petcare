@@ -11,7 +11,7 @@ th {
     padding: 0
 }
 
-*,
+,
 sub,
 sup {
     position: relative
@@ -20,8 +20,8 @@ sup {
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 2000;
+    font-family: proxima-nova;
+    font-weight: 200;
     color: #7f8c8d;
     letter-spacing: -.04em
 }
@@ -253,7 +253,7 @@ h6 {
     z-index: -1
 }
 
-@media screen and (max-width:2000 px) {
+@media screen and (max-width:900px) {
     body {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -297,7 +297,7 @@ article {
     z-index: 1
 }
 
-@media screen and (max-width:2000px) {
+@media screen and (max-width:900px) {
     article {
         padding: 6vw;
         -webkit-box-flex: 0;
@@ -420,7 +420,7 @@ article {
     }
 }
 
-@media screen and (max-width:2000px) {
+@media screen and (max-width:900px) {
     #instagram a {
         -webkit-flex-basis: calc(100%/4);
         -ms-flex-preferred-size: calc(100%/4);
