@@ -1,3 +1,7 @@
 .carousel-container {
 	width: 480px;
 }
+
+.carousel-container img {
+	width: 100%;
+}
