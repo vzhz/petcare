@@ -1,5 +1,6 @@
 .carousel-container {
 	width: 480px;
+	margin: auto;
 }
 
 .carousel-container img {
