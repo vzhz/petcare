@@ -336,9 +336,15 @@ article {
 }
 
 .message {
-    font-size: 2.5vw;
+    font-size: 1.9em;
     line-height: 1.4;
-    margin-bottom: 4vw
+    margin-bottom: 4vw;
+}
+
+.message-small {
+    font-size: 1.75em;
+    line-height: 1.3;
+    margin-bottom: 4vw;
 }
 
 .message a {
@@ -346,7 +352,7 @@ article {
     text-decoration: none;
     border-bottom: .15vw solid #e7f2fa;
     -webkit-transition: border-color .1s ease-in-out;
-    transition: border-color .1s ease-in-out
+    transition: border-color .1s ease-in-out;
 }
 
 .message a:hover {
@@ -371,18 +377,18 @@ article {
     align-items: center;
     margin-top: -.5vw;
     margin-left: -.5vw;
-    margin-right: -.5vw
+    margin-right: -.5vw;
 }
 
 @media screen and (max-width:600px) {
     .message {
         font-size: 1.1em;
-        margin-bottom: 6vw
+        margin-bottom: 6vw;
     }
     #instagram {
         margin-top: -6px;
         margin-left: -5.5vw;
-        margin-right: -5.5vw
+        margin-right: -5.5vw;
     }
 }
 
