@@ -2,10 +2,10 @@ var feed = new Instafeed({
 		get: 'user',
 		userId: 6265799545,
 		// clientId: 'b8f69e8085334c6791b69b1c4d2d8d10',
-		accessToken: '6265799545.1677ed0.01b7db90bbf54451bf38b65d7eca25ab',
+		accessToken: '6265799545.b8f69e8.d7dd3a607d3e4de9be14ca02b030051d',
 		target: 'instagram',
 		// sortBy: 'most-liked',
-		limit: 6,
+		limit: 4,
 		resolution: 'standard_resolution',
 		after: function() {
 			var el = document.getElementById('instagram');
