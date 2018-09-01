@@ -451,3 +451,45 @@ article {
     height: 140px;
     margin-top: 50px;
 }
+
+/* contact info */
+
+.secondary-nav {
+  font-size: 13.2px;
+  margin-top: 22px;
+  margin-right: 0px;
+  margin-left: 0px;
+  letter-spacing: 2px;
+}
+/* !important overriddes everything else but a sub important */
+.secondary-nav a
+{
+  color: #edebeb !important;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.5em;
+  overflow: hidden;
+  clear: both; 
+}
+
+.contact-info a {
+  display: block;
+  min-height: 30px;
+  background-repeat: no-repeat;
+  background-size: 35px 35px;
+  padding: 0 0 0 35px;
+  margin: 0 0 7px;
+  text-decoration: none;
+}
+
+.contact-info li.phone a {
+  background-image: url('../images/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../images/mail.png');
+}
